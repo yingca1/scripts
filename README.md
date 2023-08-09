@@ -5,6 +5,7 @@
 - terminal
 - container
 - python
+- database
 
 ## target support platforms
 
