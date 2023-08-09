@@ -1,12 +1,16 @@
 #!/bin/bash
 # SSH Agent forwarding with tmux
 
+mkdir -p ~/.ssh
+
 # Create or append to ~/.ssh/rc
 cat >> ~/.ssh/rc <<EOL
 if [ ! -S ~/.ssh/ssh_auth_sock ] && [ -S "\$SSH_AUTH_SOCK" ]; then
     ln -sf \$SSH_AUTH_SOCK ~/.ssh/ssh_auth_sock
 fi
 EOL
+
+chmod 600 ~/.ssh/rc
 
 # Append to ~/.tmux.conf
 cat >> ~/.tmux.conf <<EOL

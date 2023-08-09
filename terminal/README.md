@@ -18,3 +18,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
+
+## scripts
+
+```bash
+curl -sSL https://raw.githubusercontent.com/yingca1/setup-env/main/terminal/scripts/ssh-agent-forwarding-for-tmux.sh | bash
+```
