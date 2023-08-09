@@ -2,7 +2,7 @@
 
 ## Categories
 
-- basic
+- terminal
 - container
 - python
 

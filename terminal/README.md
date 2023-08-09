@@ -1,4 +1,4 @@
-# Essential Dev Environment
+# Terminal Environment
 
 ## zsh + ohmyzsh + tmux + vim + neovim
 
